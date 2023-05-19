@@ -1,0 +1,157 @@
+
+@media (max-width: 575.98px){    /* For small potrait */
+    .banner-icon-right {
+        right: 0;
+        top: 50%;
+    }
+    .banner-icon {
+        left: 0;
+        top: 50%;
+    }
+    .banner-inner {
+        height: 400px;
+        margin-top: 70px;
+    }
+    .scroll-btn {
+        left: 55%;
+        top: 60%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+    .about-text {
+        padding: 0 20px;
+    }
+    .about-inner::after {
+        display: none;
+    }
+    .about-inner::before {
+        display: none;
+    }
+    .about-inner span::after {
+        display: none;
+    }
+    .about-inner span::before {
+        display: none;
+    }
+    .experience-main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .experience-items {
+        width: 100%;
+    }
+    .letter-spacing {
+        letter-spacing: 3px;
+    }
+
+    .design-main {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .desing-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .talk-main {
+        margin: 20px;
+    }
+    .form-main form {
+        padding: 20px;
+    }
+    .talk-icon {
+        padding: 30px 0;
+    }
+    .contact-body {
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){    /* For small landscape */
+    .banner-icon-right {
+        right: 0;
+        top: 20%;
+    }
+    .banner-icon {
+        left: 0;
+        top: 20%;
+    }
+    .experience-main {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .experience-items {
+        width: calc(100% - 20px);
+    }
+    .design-main {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .desing-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .contact-body {
+        overflow: hidden;
+    }
+    .banner-inner {
+        margin-top: 70px;
+    }
+    .scroll-btn {
+        left: 55%;
+        top: 45%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){    /* For mediam tablet */
+    .banner-icon-right {
+        right: -30px;
+    }
+    .banner-icon {
+        left: -30px;
+    }
+    .experience-main {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .experience-items {
+        width: calc(50% - 20px);
+    }
+    .design-main {
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .desing-items {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+  
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px){
+    
+}
+
+@media (min-width: 1400px){
+    
+}
